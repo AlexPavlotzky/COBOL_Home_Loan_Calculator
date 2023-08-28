@@ -1,5 +1,8 @@
 IDENTIFICATION DIVISION.
 PROGRAM-ID. MortgageCalculator.
+AUTHOR. Alexander Pavlotzky.
+DATE-WRITTEN. 27/08/2023.
+DATE-COMPILED. 28/08/2023.
 DATA DIVISION.
 WORKING-STORAGE SECTION.
 01 LoanAmount           PIC 9(8)V99.
@@ -24,3 +27,4 @@ PROCEDURE DIVISION.
     DISPLAY "Total Interest Paid: $" TotalInterestPaid.
     
     STOP RUN.
+END PROGRAM MortgageCalculator.
