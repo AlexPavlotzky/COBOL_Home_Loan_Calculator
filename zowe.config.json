@@ -2,16 +2,11 @@
     "$schema": "./zowe.schema.json",
     "profiles": {
         "MORTGAGECALCULATOR": {
+            "type": "zosmf",
+            "profileName": "zosmf",
             "properties": {
-                "host": "192.86.32.250"
-            },
-            "profiles": {
-                "zosmf": {
-                    "type": "zosmf",
-                    "properties": {
-                        "port": 10443
-                    }
-                }
+                "host": "192.86.32.250",
+                "port": 10443
             },
             "secure": [
                 "user",
@@ -27,7 +22,7 @@
         }
     },
     "defaults": {
-        "zosmf": "MORTGAGECALCULATOR.zosmf",
+        "zosmf": "MORTGAGECALCULATOR",
         "base": "base"
     },
     "plugins": []
