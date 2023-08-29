@@ -1,7 +1,7 @@
 {
     "$schema": "./zowe.schema.json",
     "profiles": {
-        "LearnCOBOL": {
+        "MORTGAGECALCULATOR": {
             "properties": {
                 "host": "192.86.32.250"
             },
@@ -27,7 +27,7 @@
         }
     },
     "defaults": {
-        "zosmf": "LearnCOBOL.zosmf",
+        "zosmf": "MORTGAGECALCULATOR.zosmf",
         "base": "base"
     },
     "plugins": []
