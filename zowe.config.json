@@ -1,7 +1,7 @@
 {
     "$schema": "./zowe.schema.json",
     "profiles": {
-        "MORTGAGECALCULATOR": {
+        "LearnCOBOL": {
             "type": "zosmf",
             "profileName": "zosmf",
             "properties": {
@@ -22,7 +22,7 @@
         }
     },
     "defaults": {
-        "zosmf": "MORTGAGECALCULATOR",
+        "zosmf": "LearnCOBOL",
         "base": "base"
     },
     "plugins": []
