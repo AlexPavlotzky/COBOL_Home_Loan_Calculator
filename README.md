@@ -1,4 +1,4 @@
 # Mortgage Calculator
-Mortgage Calculator offers the simple calculation of the value of the monthly installment of a mortgage, and also indicates the amount of interest that you should pay.
+COBOL calculator that allows users to enter the amount of the loan, the interest rate and the term, and that calculates the monthly installments and the total interest to pay.
 
-Mortgage Calculator (Calculadora de Hipotecas) ofrece el cálculo sencillo del valor de la cuota mensual de una hipoteca, y además te indica el monto de intereses que debes pagar.
+Calculadora en COBOL que permite a los usuarios ingresar el monto del préstamo, la tasa de interés y el plazo, y que calcula las cuotas mensuales y el total de intereses a pagar.
