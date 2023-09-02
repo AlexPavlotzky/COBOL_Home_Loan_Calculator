@@ -29,4 +29,4 @@
            DISPLAY "Total Interest Paid: $" TOTALINTERESTPAID.
             
            STOP RUN.
-       END PROGRAM MORTGAGECALCULATOR.
+           
